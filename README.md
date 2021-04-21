@@ -5,7 +5,7 @@
 - [Structure](#structure)
 - [Importing](#importing)
 - [File declaration](#file-declaration)
-- [More](#more)
+- [Setup](#setup)
 
 ## Structure
 
@@ -95,3 +95,55 @@ tip: you will see actual use here when we start working with react
 ## `layout`
 
 Define your layout, how your webpage looks like
+
+## Setup
+
+1. Clone this repository into a new project folder (replace `[project name]` with your project's name)
+
+   ```
+   git clone git@github.com:Fbw-48/project-boilerplate-scss.git [project name]
+   ```
+
+1. Delete the boilerplate's git history to ensure that the project history only includes your commits
+
+   ```
+   cd <project name>
+   rm -rf .git
+   ```
+
+1. Edit `package.json` to add you project's name
+
+   `package.json`
+
+   ```json
+   {
+     "name": "[project name]",
+     ...
+     "author": "[your name]"
+   }
+   ```
+
+1. Edit `src/index.html` to add your projects name
+
+   ```html
+   ...
+   <head>
+     ...
+     <title>[project name]</title>
+   </head>
+   ...
+   ```
+
+1. Start a new git repository and make an initial commit. This will make sure that you can work on your project with git.
+
+   ```
+   git init
+   git add . && git commit -m "Initial commit"
+   ```
+1. Install the dependencies
+
+   ```
+   npm install
+   ```
+
+1. Happy coding ☘️ 
